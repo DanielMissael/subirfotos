@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Arial, Helvetica, sans-serif;  
+}
+
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    width:100%;
+    height:auto;
+    object-position: center center;
+
+}
+#preview{
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    border: 2px dashed black;
+    background-position: center;
+    background-size: cover;
+    
+}
+/*
+#preview img{
+    margin-top: 100px;
+
+}
+
+#document{
+    cursor: pointer;
+}
+#preview{
+    max-width: 800px;
+}
+*/
+.droparea{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
